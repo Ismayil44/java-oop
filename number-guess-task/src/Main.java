@@ -8,9 +8,9 @@ public class Main{
         String name = new Scanner(System.in).nextLine();
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> ListOfNumbers = new ArrayList<>();
+        int randumNum = rand.nextInt(0,101);
         while(true){
             System.out.println("Please, try to guess the number (from 0 to 100), " + name + "!");
-            int randumNum = rand.nextInt(0,10);
 
             while(!sc.hasNextInt()){
                 System.out.println("Invalid input. Please enter an integer!");
