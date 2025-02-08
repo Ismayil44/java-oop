@@ -7,7 +7,7 @@ public class Main{
         System.out.print("Let the game begin!\nPlease enter your name: ");
         String name = new Scanner(System.in).nextLine();
         Scanner sc = new Scanner(System.in);
-        ArrayList<Integer> ListOfNumbers = new ArrayList<>();
+        int[] ListOfNumbers = {};
         int randumNum = rand.nextInt(0,101);
         while(true){
             System.out.println("Please, try to guess the number (from 0 to 100), " + name + "!");
@@ -16,12 +16,12 @@ public class Main{
                 System.out.println("Invalid input. Please enter an integer!");
                 sc.next();
                 System.out.println("Please, try to guess the number (from 0 to 100), " + name + "!");
-
             }
             int number = sc.nextInt();
             if(number == randumNum){
                 System.out.println("Congratulations, "+ name + "!");
-                ListOfNumbers.add(number);
+                ListOfNumbers = Arrays.copyOf(ListOfNumbers,ListOfNumbers.length+1);
+                ListOfNumbers[ListOfNumbers.length-1]=number;
                 break;
             }
             else if (number > randumNum) {
@@ -30,9 +30,13 @@ public class Main{
             else if (number < randumNum) {
                 System.out.println("Your number is too small. Please, try again.");
             }
-            ListOfNumbers.add(number);
+            ListOfNumbers = Arrays.copyOf(ListOfNumbers,ListOfNumbers.length+1);
+            ListOfNumbers[ListOfNumbers.length-1]=number;
         }
-        ListOfNumbers.sort(Collections.reverseOrder());
-        System.out.println("Your numbers: " + ListOfNumbers);
+        Arrays.sort(ListOfNumbers);
+        System.out.print("\nYour numbers: ");
+        for(int i = ListOfNumbers.length - 1; i >=0; i--) {
+            System.out.print(ListOfNumbers[i] + " ");
+        }
     }
 }
