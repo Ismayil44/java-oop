@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -21,7 +22,7 @@ public class Human{
     }
 
 
-    public Human(String name, String surname, int year, int iq,String[][] schedule){
+    public Human(String name, String surname, int year, int iq,String[][] schedule,Family family){
         this.name = name;
         this.surname = surname;
         this.year = year;
@@ -70,6 +71,7 @@ public class Human{
 
     //Non-obligatory task
     public boolean feedPet(){
+        System.out.println("Is it time for feeding(Enter true or false: ");
         boolean isTime= new Scanner(System.in).nextBoolean();
         if(isTime){
             System.out.println(name + " says: Hm... I will feed " + family.getPet().getNickname());
@@ -87,5 +89,19 @@ public class Human{
                 return false;
             }
         }
+    }
+
+
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Human human = (Human) o;
+        return year == human.year && iq == human.iq && Objects.equals(name, human.name) && Objects.equals(surname, human.surname) && Arrays.deepEquals(schedule, human.schedule);
+    }
+
+    public int hashCode() {
+        int result = Objects.hash(name, surname, year, iq);
+        result = 31 * result + Arrays.deepHashCode(schedule);
+        return result;
     }
 }
