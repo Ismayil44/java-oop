@@ -30,6 +30,10 @@ public class Family {
 
     public boolean deleteChild(int index){
         Human newlist[]=new Human[0];
+        if (index<0 || index>=this.children.length){
+            System.out.println("Index is out of range");
+            return false;
+        }
         int j=0;
         for(int i=0; i<=this.children.length-1; i++) {
             if (i != index) {
@@ -54,7 +58,7 @@ public class Family {
             }
         }
         if (newlist==children) {
-            System.out.println("Failed to delete child");
+            System.out.println("Children not found to delete.");
             return false;
         }
         this.children=newlist;
