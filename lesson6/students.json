@@ -1,0 +1,71 @@
+[ {
+  "name" : "John",
+  "surname" : "Doe",
+  "age" : 20,
+  "gender" : "Male",
+  "course" : [ {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  }, {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  } ]
+}, {
+  "name" : "Jane",
+  "surname" : "White",
+  "age" : 22,
+  "gender" : "Female",
+  "course" : [ {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  }, {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  } ]
+}, {
+  "name" : "Michael",
+  "surname" : "Johnson",
+  "age" : 21,
+  "gender" : "Male",
+  "course" : [ {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  }, {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  } ]
+}, {
+  "name" : "Emily",
+  "surname" : "Davis",
+  "age" : 23,
+  "gender" : "Female",
+  "course" : [ {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  }, {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  } ]
+}, {
+  "name" : "Chris",
+  "surname" : "Miller",
+  "age" : 19,
+  "gender" : "Male",
+  "course" : [ {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  }, {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  } ]
+} ]

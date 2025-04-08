@@ -1,0 +1,331 @@
+[ {
+  "student" : {
+    "name" : "John",
+    "surname" : "Doe",
+    "age" : 20,
+    "gender" : "Male",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Alice",
+    "surname" : "Brown",
+    "age" : 40,
+    "gender" : "Female",
+    "course" : {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }
+  },
+  "course" : {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  },
+  "grade" : "A"
+}, {
+  "student" : {
+    "name" : "John",
+    "surname" : "Doe",
+    "age" : 20,
+    "gender" : "Male",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Bob",
+    "surname" : "Smith",
+    "age" : 45,
+    "gender" : "Male",
+    "course" : {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    }
+  },
+  "course" : {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  },
+  "grade" : "A"
+}, {
+  "student" : {
+    "name" : "Jane",
+    "surname" : "White",
+    "age" : 22,
+    "gender" : "Female",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Alice",
+    "surname" : "Brown",
+    "age" : 40,
+    "gender" : "Female",
+    "course" : {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }
+  },
+  "course" : {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  },
+  "grade" : "A"
+}, {
+  "student" : {
+    "name" : "Jane",
+    "surname" : "White",
+    "age" : 22,
+    "gender" : "Female",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Bob",
+    "surname" : "Smith",
+    "age" : 45,
+    "gender" : "Male",
+    "course" : {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    }
+  },
+  "course" : {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  },
+  "grade" : "A"
+}, {
+  "student" : {
+    "name" : "Michael",
+    "surname" : "Johnson",
+    "age" : 21,
+    "gender" : "Male",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Alice",
+    "surname" : "Brown",
+    "age" : 40,
+    "gender" : "Female",
+    "course" : {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }
+  },
+  "course" : {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  },
+  "grade" : "A"
+}, {
+  "student" : {
+    "name" : "Michael",
+    "surname" : "Johnson",
+    "age" : 21,
+    "gender" : "Male",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Bob",
+    "surname" : "Smith",
+    "age" : 45,
+    "gender" : "Male",
+    "course" : {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    }
+  },
+  "course" : {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  },
+  "grade" : "A"
+}, {
+  "student" : {
+    "name" : "Emily",
+    "surname" : "Davis",
+    "age" : 23,
+    "gender" : "Female",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Alice",
+    "surname" : "Brown",
+    "age" : 40,
+    "gender" : "Female",
+    "course" : {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }
+  },
+  "course" : {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  },
+  "grade" : "A"
+}, {
+  "student" : {
+    "name" : "Emily",
+    "surname" : "Davis",
+    "age" : 23,
+    "gender" : "Female",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Bob",
+    "surname" : "Smith",
+    "age" : 45,
+    "gender" : "Male",
+    "course" : {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    }
+  },
+  "course" : {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  },
+  "grade" : "A"
+}, {
+  "student" : {
+    "name" : "Chris",
+    "surname" : "Miller",
+    "age" : 19,
+    "gender" : "Male",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Alice",
+    "surname" : "Brown",
+    "age" : 40,
+    "gender" : "Female",
+    "course" : {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }
+  },
+  "course" : {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  },
+  "grade" : "A"
+}, {
+  "student" : {
+    "name" : "Chris",
+    "surname" : "Miller",
+    "age" : 19,
+    "gender" : "Male",
+    "course" : [ {
+      "name" : "Math",
+      "academicYear" : 1,
+      "minimumScore" : 50
+    }, {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    } ]
+  },
+  "teacher" : {
+    "name" : "Bob",
+    "surname" : "Smith",
+    "age" : 45,
+    "gender" : "Male",
+    "course" : {
+      "name" : "Physics",
+      "academicYear" : 2,
+      "minimumScore" : 60
+    }
+  },
+  "course" : {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  },
+  "grade" : "A"
+} ]

@@ -1,0 +1,21 @@
+[ {
+  "name" : "Alice",
+  "surname" : "Brown",
+  "age" : 40,
+  "gender" : "Female",
+  "course" : {
+    "name" : "Math",
+    "academicYear" : 1,
+    "minimumScore" : 50
+  }
+}, {
+  "name" : "Bob",
+  "surname" : "Smith",
+  "age" : 45,
+  "gender" : "Male",
+  "course" : {
+    "name" : "Physics",
+    "academicYear" : 2,
+    "minimumScore" : 60
+  }
+} ]

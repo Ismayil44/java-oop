@@ -1,0 +1,9 @@
+[ {
+  "name" : "Math",
+  "academicYear" : 1,
+  "minimumScore" : 50
+}, {
+  "name" : "Physics",
+  "academicYear" : 2,
+  "minimumScore" : 60
+} ]
